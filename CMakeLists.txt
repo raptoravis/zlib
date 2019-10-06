@@ -74,7 +74,7 @@ set(INCLUDE_PATHS "${ZLIB_SOURCE_DIR}")
 include_directories(${INCLUDE_PATHS})
 
 # Declaration of the library
-xmake_create_static_library(ZLIB zlib ${HEADERS} ${SRCS})
+xmake_create_static_library(ZLIB zlib_my ${HEADERS} ${SRCS})
 
 # Exportations
 xmake_export_include_paths(ZLIB ${INCLUDE_PATHS})
